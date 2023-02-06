@@ -1,0 +1,26 @@
+<form #cvForm="ngForm">
+    <div class="form-group">
+      <label for="name">Name:</label>
+      <input type="text" id="name" class="form-control" [(ngModel)]="cv.name" name="name" required>
+    </div>
+    <div class="form-group">
+      <label for="address">Address:</label>
+      <input type="text" id="address" class="form-control" [(ngModel)]="cv.address" name="address" required>
+    </div>
+    <div class="form-group">
+      <label for="contact">Contact:</label>
+      <input type="text" id="contact" class="form-control" [(ngModel)]="cv.contact" name="contact" required>
+    </div>
+    <div class="form-group">
+      <label for="experience">Experience:</label>
+      <textarea id="experience" class="form-control" [(ngModel)]="cv.experience" name="experience" required></textarea>
+    </div>
+    <div class="form-group">
+      <label for="objectives">Objectives:</label>
+      <textarea id="objectives" class="form-control" [(ngModel)]="cv.objectives" name="objectives" required></textarea>
+    </div>
+    <div class="form-group">
+      <label for="skills">Skills:</label>
+      <textarea id="skills" class="form-control" [(ngModel)]="cv.skills" name="skills"></textarea>
+    </div>
+  
